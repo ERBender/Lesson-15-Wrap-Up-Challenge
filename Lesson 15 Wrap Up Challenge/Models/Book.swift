@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Book: Identifiable {
+class Book: Identifiable, Decodable {
     
     var id:Int
     var title:String
@@ -16,9 +16,5 @@ class Book: Identifiable {
     var currentPage:Int
     var rating:Int
     var content:[String]
-    
-    init() {
-        
-        //call the get data function
-    }
+
 }
