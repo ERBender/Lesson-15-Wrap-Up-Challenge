@@ -13,6 +13,7 @@
 		57058594270215EA008C88A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57058593270215EA008C88A7 /* Preview Assets.xcassets */; };
 		570585A027021675008C88A7 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = 5705859F27021675008C88A7 /* Data.json */; };
 		570585A2270216C4008C88A7 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570585A1270216C4008C88A7 /* Book.swift */; };
+		570585A4270218FD008C88A7 /* GetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570585A3270218FD008C88A7 /* GetData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		57058593270215EA008C88A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5705859F27021675008C88A7 /* Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
 		570585A1270216C4008C88A7 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		570585A3270218FD008C88A7 /* GetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		5705859B27021639008C88A7 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				570585A3270218FD008C88A7 /* GetData.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 			files = (
 				5705858F270215E9008C88A7 /* ContentView.swift in Sources */,
 				5705858D270215E9008C88A7 /* Lesson_15_Wrap_Up_ChallengeApp.swift in Sources */,
+				570585A4270218FD008C88A7 /* GetData.swift in Sources */,
 				570585A2270216C4008C88A7 /* Book.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
